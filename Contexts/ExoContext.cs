@@ -19,7 +19,7 @@ namespace Exo.WebApi.Contexts
             if(!optionsBuilder.IsConfigured)
             {
                 // Essa string de conexão depende da SUA máquina.
-                optionsBuilder.UseSqlServer("User ID=sa;Password=Buceta69;Server=localhost;Database=ExoApi;Trusted_Connection=False;Encrypt=False");
+                optionsBuilder.UseSqlServer("User ID=sa;Password=None;Server=localhost;Database=ExoApi;Trusted_Connection=False;Encrypt=False");
                 // optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"
                   //      + "Database=ExoApi;Trusted_Connection=True;");
                 // Exemplo 1 de string de conexão:
